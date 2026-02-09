@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMN Groundflow Challenge | 200 Reps</title>
+    <meta name="description" content="Join the movement. Master the 200-rep Amn Groundflow challenge.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-glob"></div>
+
+    <header>
+        <nav>
+            <div class="logo">AMN GROUNDFLOW</div>
+            <a href="#commit" class="nav-btn">Upload Goal</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>MASTER YOUR<br><span class="highlight">MOVEMENT</span></h1>
+                <p class="subtitle">The 200-Rep Challenge. Reset your foundation.</p>
+                <a href="#challenge" class="cta-primary">View the Challenge</a>
+            </div>
+        </section>
+
+        <section id="challenge">
+            <h2>THE PROTOCOL</h2>
+            <div class="grid-container">
+                <div class="card rep-card">
+                    <span class="count">60</span>
+                    <span class="label">Pushups</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">10</span>
+                    <span class="label">Supermans</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">10</span>
+                    <span class="label">Bicep Curls</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">10</span>
+                    <span class="label">Shoulder Press</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">05</span>
+                    <span class="label">Lat Raises</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">05</span>
+                    <span class="label">Front Raises</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">60</span>
+                    <span class="label">Squats</span>
+                </div>
+                <div class="card rep-card">
+                    <span class="count">40</span>
+                    <span class="label">Calf Raises</span>
+                </div>
+                <div class="card rep-card full-width">
+                    <span class="count">CORE</span>
+                    <span class="label">Finisher</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="commit">
+            <div class="glass-container">
+                <h2>UPLOAD YOUR GOAL</h2>
+                <p>Commit to the challenge. Leave your mark.</p>
+
+                <form id="goalForm">
+                    <div class="input-group">
+                        <input type="text" id="username" placeholder=" " required>
+                        <label for="username">Name / Handle</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="goal" placeholder=" " required></textarea>
+                        <label for="goal">What is your commitment?</label>
+                    </div>
+                    <button type="submit" class="cta-submit">
+                        <span class="btn-text">UPLOAD GOAL</span>
+                        <div class="loader"></div>
+                    </button>
+                </form>
+
+                <div id="success-message" class="hidden">
+                    <div class="check-icon">✓</div>
+                    <h3>COMMITMENT LOGGED</h3>
+                    <p>Welcome to the Groundflow.</p>
+                </div>
+            </div>
+
+            <div class="recent-commits">
+                <h3>RECENT UPLOADS</h3>
+                <div class="marquee">
+                    <div class="track">
+                        <!-- JS will populate this -->
+                        <span class="commit-item"><strong>ALEX:</strong> CRUSHING 200 REPS</span>
+                        <span class="commit-item"><strong>SARAH:</strong> CONSISTENCY IS KEY</span>
+                        <span class="commit-item"><strong>MIKE:</strong> FORM OVER SPEED</span>
+                        <span class="commit-item"><strong>JESS:</strong> DAY 1 COMPLETE</span>
+                        <span class="commit-item"><strong>ALEX:</strong> CRUSHING 200 REPS</span>
+                        <span class="commit-item"><strong>SARAH:</strong> CONSISTENCY IS KEY</span>
+                        <span class="commit-item"><strong>MIKE:</strong> FORM OVER SPEED</span>
+                        <span class="commit-item"><strong>JESS:</strong> DAY 1 COMPLETE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AMN Groundflow Challenge. <a href="https://www.instagram.com/amn_05x/"
+                target="_blank">@amn_05x</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
